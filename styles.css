@@ -97,3 +97,29 @@ p {
         font-size: 1.2em;
     }
 }
+
+/* Add styles for the form and response */
+form {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+#response {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
