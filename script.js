@@ -10,7 +10,7 @@ document.getElementById('chat-form').addEventListener('submit', async function(e
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer sk-proj-snDTG8K6xnkDO0Pluu91T3BlbkFJFz0pfhuVTUJpV6HuTnqE'
+                'Authorization': 'Bearer your-api-here'
             },
             body: JSON.stringify({
                 prompt: userInput,
