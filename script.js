@@ -10,7 +10,6 @@ document.getElementById('chat-form').addEventListener('submit', async function(e
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer test'
             },
             body: JSON.stringify({
                 prompt: userInput,
